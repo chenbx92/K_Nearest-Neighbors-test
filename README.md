@@ -1,4 +1,3 @@
-# K_Nearest-Neighbors-test
+# sklearn self-learning
 
-sklearn 
-KneighborsClassfier
+#KNN-KneighborsClassfier
