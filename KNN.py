@@ -49,7 +49,8 @@ print(KNNexe.predict_proba([[testx,testy]]))
 
 plt.pcolormesh(x,y,Z,cmap=cmap_background)
 plt.scatter(X[:,0],X[:,1],c=Y,cmap=cmap_points,s=10)
-plt.scatter([float(testx)],[float(testy)],c=testz,cmap=cmap_points,edgecolors='k',s=70)
+listcolor=['#FF0000','#00FF00','#0000FF']
+plt.scatter([float(testx)],[float(testy)],c=listcolor[int(testz)],edgecolors='k',s=70)
 plt.xlim((xmin,xmax))
 plt.ylim((ymin,ymax))
 
