@@ -2,3 +2,4 @@
 
 #KNN-KneighborsClassfier
 #Regression-LinearRegression,LogisticRegression
+#Kmeans-KMeans
